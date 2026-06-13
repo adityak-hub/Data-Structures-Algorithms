@@ -1,7 +1,7 @@
 package loops;
 import java.util.*;
 
-public class forLoops_reverseOfNumber {
+public class whileLoops_reverseOfNumber {
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your number: ");
