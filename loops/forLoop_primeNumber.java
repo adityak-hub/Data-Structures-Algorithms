@@ -15,7 +15,7 @@ public class forLoop_primeNumber {
         }else{
             boolean isPrime = true;
 
-         for (int i = 2; i <= n - 1; i++) {
+         for (int i = 2; i <= n - 1; i++) {       // instead of n-1 we can write Math.sqrt(n) which optimize code for big numbers
             if (n % i == 0) {
                 isPrime = false;
                 
