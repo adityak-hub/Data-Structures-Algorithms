@@ -1,0 +1,26 @@
+package function;
+import java.util.*;
+
+public class sumOfTwoNumbers {
+    public static int calculateSum(int num1, int num2){   // parameters or formal parameters(woh value jo function ki definition mai input hokar aati hai usse parameters or formal parameter khte hai)
+        int sum = num1 + num2 ;
+        return sum;
+
+    }
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your number: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum =calculateSum(a,b);   // arguments or actual parameters(wo value calling satatement ke andar function call ke time par pass ki jaati hai usse argument or actual parameters khte hai)
+        System.out.print(sum);
+
+    }
+}
+
+
+
+1. function occupy memory of call stack[in stack frame{pience of call stack}],when function work finished then call stack become empty.
+2.call by value:-java always calls by value(means java ke under function ke hum koi varible ki value pass krte hai to varible ki orignal value nhi balki uski ek copy jaati hai aur woh copy uss function mai hi rhegi and main function mai jo value hai woh original hi rhegi).
+3.call by reference:orignal value pass kar dena(which happens in c++).
+4.function overloading:-multiple functions with same name but must be different parameters or different data types in same(single) class.
