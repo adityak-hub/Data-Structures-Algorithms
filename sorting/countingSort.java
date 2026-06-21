@@ -19,7 +19,7 @@ public class countingSort {
             while(count[i]>0){
                 arr[j]=i;
                 j++;
-                count[i]--;
+                count[i]--; //use for decrease frequency
             }
         }
 
