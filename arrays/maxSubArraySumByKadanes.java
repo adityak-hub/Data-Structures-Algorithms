@@ -10,7 +10,7 @@ public class maxSubArraySumByKadanes {
             if(cs<0){
                 cs=0;
             }
-            ms = Math.max(ms,cs);
+            ms = Math.max(ms,cs);   // for compare
         }
         System.out.println(ms);
         
