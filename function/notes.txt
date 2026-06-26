@@ -24,3 +24,4 @@ public class sumOfTwoNumbers {
 2.call by value:-java always calls by value(means java ke under function ke hum koi varible ki value pass krte hai to varible ki orignal value nhi balki uski ek copy jaati hai aur woh copy uss function mai hi rhegi and main function mai jo value hai woh original hi rhegi).
 3.call by reference:orignal value pass kar dena(which happens in c++).
 4.function overloading:-multiple functions with same name but must be different parameters or different data types in same(single) class.
+
