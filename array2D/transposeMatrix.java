@@ -2,7 +2,7 @@ package array2D;
 
 public class transposeMatrix {
     public static void transposeMatrix(int matrix[][]) {
-        int transpose[][] = new int[matrix[0].length][matrix.length];
+        int transpose[][] = new int[matrix.length][matrix[0].length];
         for(int i=0; i<=matrix.length-1; i++){
             for(int j=0; j<=matrix[0].length-1; j++){
                 transpose[j][i]=matrix[i][j];
@@ -18,7 +18,7 @@ public class transposeMatrix {
         }
     }
     public static void main(String[] args) {
-        int matrix[][] = {{1,2,3},{4,5,6},{7,8,9}};
+        int matrix[][] = {{3,7,9},{0,1,8},{2,6,4}};
         transposeMatrix(matrix);
         
     
