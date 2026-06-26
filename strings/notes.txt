@@ -1,0 +1,46 @@
+
+Class: A blueprint or template used to create objects.
+Object: An real instance of a class that occupies memory and contains actual data.
+ex------
+class Student {
+    String name;
+}
+
+Student s1 = new Student();
+Student → Class
+s1 → Object
+
+
+-----
+
+int a=10;  a.toString()      Integer a=10; a.toString() which is correct and why
+The second one is correct.
+
+❌ Primitive int
+int a = 10;
+a.toString();   // Error
+
+Why?
+
+Because int is a primitive data type, not an object.
+
+Only objects can call methods like toString().
+
+
+
+
+What is a Wrapper Class in Java?
+
+A wrapper class is a class that wraps (converts) a primitive data type into an object.
+
+Java provides a wrapper class for each primitive type.
+
+Primitive	Wrapper Class
+byte	     Byte
+short	     Short
+int	         Integer
+long	     Long
+float	     Float
+double	     Double
+char	     Character
+boolean	     Boolean
