@@ -44,3 +44,52 @@ float	     Float
 double	     Double
 char	     Character
 boolean	     Boolean
+
+
+
+
+-----
+StringBuffer is almost the same as StringBuilder.
+
+The only important difference is:
+
+Feature	StringBuilder	StringBuffer
+Mutable	✅	✅
+Fast	✅ Faster	❌ Slower
+Thread-Safe	❌ No	✅ Yes
+Synchronization	❌ No	✅ Yes
+
+
+
+
+Q. Which one should we use?
+
+Answer:
+
+Use String when data won't change.
+Use StringBuilder in almost all modern programs because it's faster.
+Use StringBuffer only when multiple threads share the same object and thread safety is required.
+
+use StringBuilder 99% of the time. StringBuffer is mainly asked in Java interviews to test
+
+
+
+
+-----
+Q. Why is StringBuilder faster than StringBuffer?
+
+A.
+StringBuilder is not synchronized, so it does not perform locking. StringBuffer is synchronized (thread-safe), which adds overhead and makes it slower.
+
+Rule for You
+
+For DSA, LeetCode, competitive programming, and most Java programs:
+Use this.
+StringBuilder sb = new StringBuilder();
+
+Use this.
+For multithreading where many threads share the same string object:
+StringBuffer sb = new StringBuffer();
+
+
+That's why you'll see StringBuilder almost everywhere in coding interviews, while StringBuffer mostly appears in Java-core interview questions.
