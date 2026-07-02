@@ -1,8 +1,10 @@
-*for checking answer of left shift operator
+-->for checking answer of left shift operator
 a<<b=a*2^b
 ex--> 5<<2=5*2^2=>20
 
-*for checking answer of right shift operator
+-->for checking answer of right shift operator
 a>>b=a/2^b
 ex--> 6>>1=6/2^1=>3
+
+
 
