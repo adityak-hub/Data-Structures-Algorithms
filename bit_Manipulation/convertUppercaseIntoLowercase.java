@@ -5,7 +5,7 @@ public class convertUppercaseIntoLowercase {
         // convert uppercase character to lowercase
 
         for(char ch='A'; ch<='Z'; ch++){
-            System.out.print((char)(ch | ' '));
+            System.out.print((char)(ch | ' '));  //we use char to take character not ascaii value
         }
     }
     
