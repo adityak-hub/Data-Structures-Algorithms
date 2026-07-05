@@ -1,0 +1,159 @@
+CLASS--
+
+A class is a blueprint or template used to create objects.
+
+Example
+
+Think of a car factory blueprint.
+
+The blueprint says:
+
+Color
+Brand
+Speed
+Start()
+Stop()
+
+But you cannot drive the blueprint.
+
+It only describes how a car should be made.
+
+This is only the design.
+
+No actual car exists yet.
+
+
+OBJECT---
+
+
+An object is a real world things that has data(attributes) and behaviour(methods/functions).
+object is an instance(example) of a class.
+
+
+Real Life Examples
+Example 1
+
+Class: Student
+
+Blueprint
+
+Name
+Age
+Roll No
+Study()
+Sleep()
+
+Objects
+
+Aditya
+Rahul
+Priya
+
+All are students.
+
+Each has different values.
+
+
+What is a constructor?
+
+A constructor is a special method that runs automatically when an object is created.
+
+why we use constructor how it works ?
+
+You own a car factory.
+
+You have the blueprint:
+
+Now you create a car.
+
+Java creates the object.
+
+But then Java asks:
+
+"What should I put inside this new car?"
+
+Should the color be red?
+
+Should the speed be 120?
+
+Should the engine be started?
+
+Someone has to initialize the object.
+
+That's exactly what a constructor does.
+
+
+
+----------------------------------------------------------------
+ACCESS MODIFIER
+
++-----------------+--------------+----------------+-------------------------------+------------------+
+| Access Modifier | Within Class | Within Package | Outside Package (Subclass)    | Outside Package  |
++-----------------+--------------+----------------+-------------------------------+------------------+
+| Private         | Yes          | No             | No                            | No               |
+| Default         | Yes          | Yes            | No                            | No               |
+| Protected       | Yes          | Yes            | Yes                           | No               |
+| Public          | Yes          | Yes            | Yes                           | Yes              |
++-----------------+--------------+----------------+-------------------------------+------------------+
+
+
+Easy Notes---
+1. Private
+   - Accessible only within the same class.
+
+2. Default (No Modifier)
+   - Accessible within the same class.
+   - Accessible within the same package.
+   - Not accessible outside the package.
+
+3. Protected
+   - Accessible within the same class.
+   - Accessible within the same package.
+   - Accessible outside the package only through inheritance (subclass).
+
+4. Public
+   - Accessible from anywhere.
+
+
+
+Memory Trick
+Private   -> Only the same class.
+
+Default   -> Same class + Same package.
+
+Protected -> Same class + Same package + Subclass (outside package).
+
+Public    -> Everywhere.
+
+
+Easy Story***************
+
+Imagine your mobile phone.
+
+Private*
+
+Your OTP.
+
+Only you can see it.
+
+Nobody else.
+
+Default*
+
+Family members can use it.
+
+Neighbours cannot.
+
+Protected*
+
+Family members can use.
+
+If your son goes to another city, he can still use it because he is family (subclass).
+
+Random strangers cannot.
+
+Public*
+
+Your Instagram profile.
+
+Everyone can see it.
