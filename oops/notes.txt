@@ -246,3 +246,55 @@ Shark
       Fish      Bird
         │          │
       Shark     Peacock
+
+
+
+------------------------------
+Polymorphism in Java
+What is Polymorphism?
+
+Definition:Polymorphism is an OOP concept where one method or object can have many forms or behaviors.
+
+Poly = Many
+Morphism = Forms
+
+So, Polymorphism = Many Forms.
+
+Simple Example
+
+Think of a person.
+
+At home → Son
+At college → Student
+At work → Employee
+
+The same person has different roles (forms).
+
+Similarly, in Java, the same method or object can behave differently.
+
+•Types of Polymorphism
+There are 2 types of polymorphism in Java.
+
+1. Compile-Time Polymorphism (Static Polymorphism)
+
+It is achieved using Method Overloading.
+
+Definition
+When multiple methods have the same name but different parameters(different types or count) and it is not depend on retrun type, it is called method overloading.
+
+The compiler decides which method to call before run the code.
+
+
+2. Run-Time Polymorphism (Dynamic Polymorphism)
+
+It is achieved using Method Overriding.
+
+Definition
+When a Parent and child classes both contain the same function with a different definition(same function hai but kaam alag hai)and it doesn't depend on return type, it is called method overriding.
+
+The method is chosen at runtime.
+
+---------------------------------
+
+packages in java:
+package is a group of similar types of classes,interfaces and sub-packages.
