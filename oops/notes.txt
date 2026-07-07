@@ -206,3 +206,43 @@ Java does not have destructors like C++.
 Instead, Java uses a Garbage Collector (GC).
 
 When an object is no longer needed, the Garbage Collector automatically frees its memory.
+
+
+---------------------------------
+inheritance
+Inheritance is when properties and methods of base class(parent class) are passed on to a derived class(child class) it is called inheritance.
+
+types of inheritance--
+
+1. Single Inheritance: One child class inherits from one parent class.
+Animal
+   │
+   ▼
+ Fish
+
+2. Multilevel Inheritance:A child class becomes the parent of another class.
+
+Animal
+   │
+   ▼
+ Fish
+   │
+   ▼
+Shark
+
+3. Hierarchical Inheritance: Multiple child classes inherit from the same parent class.
+        Animal
+      /    |    \
+     ▼     ▼     ▼
+   Fish  Bird  Dog
+
+
+4. Hybrid Inheritance:Hybrid inheritance is the combination of two or more types of inheritance in the same program.
+✅ A combination of single, multilevel, and hierarchical inheritance is possible in Java.
+❌ Hybrid inheritance that requires multiple inheritance of classes is not supported in Java.
+
+          Animal
+         /      \
+      Fish      Bird
+        │          │
+      Shark     Peacock
