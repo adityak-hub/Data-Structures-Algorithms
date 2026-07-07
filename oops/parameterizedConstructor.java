@@ -13,7 +13,7 @@ class Student3{
     int roll;
 
 
-    Student3(String name){
+    Student3(String name){   //A constructor that accepts one or more parameters to initialize object data.
         this.name = name;
     }
 }
