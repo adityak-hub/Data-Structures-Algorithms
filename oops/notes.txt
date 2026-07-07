@@ -188,3 +188,21 @@ This--
 
 
 •If a method parameter and an instance variable have the same name, use this to refer to the instance variable. If the names are different, this is optional but often used for readability and consistency.
+
+
+
+-----------------------
+Destructor->
+A destructor is a special method that is automatically called when an object is destroyed. It is used to free or clean up resources used by the object.
+
+
+
+
+Does Java have a Destructor?
+No. ❌
+
+Java does not have destructors like C++.
+
+Instead, Java uses a Garbage Collector (GC).
+
+When an object is no longer needed, the Garbage Collector automatically frees its memory.
