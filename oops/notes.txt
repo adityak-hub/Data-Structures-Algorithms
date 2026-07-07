@@ -55,8 +55,13 @@ Each has different values.
 
 
 What is a constructor?
+ 
+A constructor is a special method that runs(call) automatically when an object is created.
 
-A constructor is a special method that runs automatically when an object is created.
+•Constructor have the same as class or structure(c++).
+•Constructor don't have a return type.(not even void).
+•Constructor are only called once, at object creation.
+•Memory allocation happens when constructor is called.
 
 why we use constructor how it works ?
 
@@ -81,6 +86,12 @@ Should the engine be started?
 Someone has to initialize the object.
 
 That's exactly what a constructor does.
+
+types of constructor-------------
+1.Non-parameterized: take no argument or parameter in constructor.
+2.parameterized:we take any argument or parameter.
+
+
 
 
 
@@ -157,3 +168,23 @@ Public*
 Your Instagram profile.
 
 Everyone can see it.
+
+
+-----------------------
+getter and setter 
+
+
+Getter: A method used to read the value of a private variable.
+Setter: A method used to update(set) the value of a private variable, often with validation.
+
+----------
+Encapsulation
+Encapsulation is defined as the wrapping up of data and methods under a single unit.it also implements data hiding(it data is sensitive than use private/default/protected access specifier).
+---------------------
+This--
+
+•this is a reference variable that refers to the current object.
+•It is used to access the current object's variables and methods.
+
+
+•If a method parameter and an instance variable have the same name, use this to refer to the instance variable. If the names are different, this is optional but often used for readability and consistency.
