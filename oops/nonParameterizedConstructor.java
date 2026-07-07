@@ -11,7 +11,7 @@ class Student2{
     String name;
     int roll;
 
-    Student2(){      // non Parameterized Constructor
+    Student2(){      // A constructor created by the programmer that has no parameters.
         System.out.println("constructor is called...");
     }
 }
