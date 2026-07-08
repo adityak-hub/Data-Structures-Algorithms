@@ -12,7 +12,7 @@ public class mutliLevelInheritance {
     }
 }
 
-class Animal{
+class Animalll{
     String color;
 
     void eat(){
@@ -24,11 +24,11 @@ class Animal{
     }
 }
 
-class Mammal extends Animal{
+class Mammalll extends Animalll{
     int legs;
 
 }
 
-class Dog extends Mammal{
+class Dog extends Mammalll{
     String breed;
 }

@@ -8,14 +8,14 @@ public class hybridInheritance {
         peacock.color = "white";
         System.out.println(peacock.color);
 
-        Human human  = new Human();
-        human.intelligence();
+        Humann Humann  = new Humann();
+        Humann.intelligence();
         
     }
 }
 
 //base class or parent class
-class Animal{
+class Animals{
     String color;
 
     void eat(){
@@ -27,56 +27,56 @@ class Animal{
     }
 }
 
-//derived class of Animal
-class Fish extends Animal{
+//derived class of Animals
+class Fishh extends Animals{
     void swim(){
         System.out.println("swim");
     }
 }
 
-//derived class of Animal
-class Bird extends Animal{
+//derived class of Animals
+class Birdd extends Animals{
     void fly(){
         System.out.println("fly");
     }
 }
 
 
-//derived class of Animal
-class Mammal extends Animal{
+//derived class of Animals
+class Mammall extends Animals{
     void walk(){
         System.out.println("walk");
     }
 }
  
 
-//derived classs of Fish
-class Shark extends Fish{
+//derived classs of Fishh
+class Sharkk extends Fishh{
     void noBones(){
         System.out.println("no bones");
     }
 }
-class Tuna extends Fish{
+class Tuna extends Fishh{
     void tase(){
         System.out.println("tasty");
     }
 }
 
-//derived class of Bird
-class Peacock extends Bird{
+//derived class of Birdd
+class Peacock extends Birdd{
     void beautiful(){
         System.out.println("beautiful");
     }
 }
 
 
-//derived class of Mammal
-class Human extends  Mammal{
+//derived class of Mammall
+class Humann extends  Mammall{
     void intelligence(){
         System.err.println("intelligence");
     }
 }
-class Dog extends  Mammal{
+class Dog extends  Mammall{
     void loyalty(){
         System.err.println("loyalty");
     }
