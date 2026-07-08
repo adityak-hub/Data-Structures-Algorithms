@@ -334,3 +334,25 @@ Example:
 abstract class Animal {
     abstract void walk();
 }
+
+
+
+
+-----------------------------------------
+interfaces: Interface is a blueprint of a class
+work of interface->
+•to implements multiple inheritance(5th type of inheritance)
+•to achieve total abstraction
+
+1.All methods are public,abstract and without implementation
+2.used to achieve total abstraction
+3.Variables in the interface are final,public and static.
+
+
+Interface vs Abstract Class
+Abstract Class	                                      Interface
+Uses extends	                                      Uses implements
+Can have constructors	                             Cannot have constructors
+Can have instance variables	                       Only constants (public static final)
+Can have both abstract and normal methods	           Can have abstract methods (and also default/static methods in modern Java)
+Supports single inheritance                          A class can implement multiple interfaces
