@@ -398,3 +398,12 @@ Meaning
 name → Instance variable (every object has its own copy).
 rollNo → Instance variable (every object has its own copy).
 schoolName → Static variable (only one copy exists and all objects share it).
+
+--------------------------------------
+Super keyword
+
+super keyword is used to refer immediate parent class object.
+
+-to access parent's properties
+-to access parent's functions
+-to access parent's constructor
