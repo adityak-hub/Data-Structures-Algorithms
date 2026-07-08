@@ -2,7 +2,7 @@ package oops.constructor;
 
 public class deepCopyConstructor {
     public static void main(String[] args) {
-        Student s1 = new Student();
+        Students s1 = new Students();
         s1.name = "aditya";
         s1.roll=456;
         s1.password = "abcd";
@@ -10,7 +10,7 @@ public class deepCopyConstructor {
         s1.marks[1]=90;
         s1.marks[2]=80;
 
-        Student s2 = new Student(s1);   //copy s1 in s2
+        Students s2 = new Students(s1);   //copy s1 in s2
         s2.password = "xyz";
         s1.marks[2]=100;
         for(int i=0; i<3; i++){
@@ -19,14 +19,14 @@ public class deepCopyConstructor {
     }
 }
 
-class Student{
+class Students{
     String name;
     int roll;
     String password;
     int marks[];
     
     //deep copy constructor
-    Student(Student s1){
+    Students(Students s1){
         marks = new int[3];
         this.name = s1.name;
         this.roll=s1.roll;
@@ -36,7 +36,7 @@ class Student{
 
     }
 
-    Student(){
+    Students(){
         marks = new int[3];
         System.out.println("constuctor is called...");
     }
