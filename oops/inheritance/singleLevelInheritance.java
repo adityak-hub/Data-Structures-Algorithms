@@ -4,8 +4,8 @@ package oops.inheritance;
 
 public class singleLevelInheritance {
     public static void main(String[] args) {
-        Fish shark = new Fish();
-        shark.eat();
+        Fishhh Sharkkk = new Fishhh();
+        Sharkkk.eat();
     }
 }
 
@@ -13,7 +13,7 @@ public class singleLevelInheritance {
 
 
 //base class or parent class
-class Animal{
+class Animallll{
     String color;
     void breath(){
         System.out.println("breaths");
@@ -26,7 +26,7 @@ class Animal{
 
 
 //derived class or subclass or child class
-class Fish extends Animal{
+class Fishhh extends Animallll{
     int fins;
 
     void swim(){
