@@ -2,14 +2,14 @@ package oops.inheritance;
 
 public class inheritance{
     public static void main(String[] args) {
-        Fish shark = new Fish();
-        shark.eat();
+        Fish Sharkkkk = new Fish();
+        Sharkkkk.eat();
     }
 }
 
 
 //base class or parent class
-class Animal{
+class Animalllll{
     String color;
     void breath(){
         System.out.println("breaths");
@@ -22,7 +22,7 @@ class Animal{
 
 
 //derived class or subclass or child class
-class Fish extends Animal{
+class Fish extends Animalllll{
     int fins;
 
     void swim(){
