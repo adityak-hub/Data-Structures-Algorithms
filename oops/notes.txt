@@ -356,3 +356,45 @@ Can have constructors	                             Cannot have constructors
 Can have instance variables	                       Only constants (public static final)
 Can have both abstract and normal methods	           Can have abstract methods (and also default/static methods in modern Java)
 Supports single inheritance                          A class can implement multiple interfaces
+
+
+-----------------------------------------------------------
+Static keyword:static(constant) keyword in java is used to share the same variable or methods of a given class.
+//jab aap Student class ka koi bhi object bna denge aur woh object tumhare school(variable) name ko declare kr deta hai toh woh baaki saare objects ke liye bhi declare ho jaayega.
+
+
+
+things which we can make satatic
+•propeeties(String,int,float .....)
+•functions
+•Blocks
+•Nested Classes
+
+Diagram--->
+
+
+                               HEAP MEMORY
+
+                   +-----------------------+
+                   |      schoolName       |   (Static Variable)
+                   +-----------------------+
+                      ▲         ▲        ▲
+                      │         │        │
+                      │         │        │
+     ┌────────────────┘         │        └────────────────┐
+     │                          │                         │
+     │                          │                         │
+
++------------------+    +------------------+    +------------------+
+|       S1         |    |       S2         |    |       S3         |
+|------------------|    |------------------|    |------------------|
+| name             |    | name             |    | name             |
+| rollNo           |    | rollNo           |    | rollNo           |
+| schoolName ──────┼────┘ schoolName ──────┼────┘ schoolName ──────┘
++------------------+    +------------------+    +------------------+
+
+
+Meaning
+name → Instance variable (every object has its own copy).
+rollNo → Instance variable (every object has its own copy).
+schoolName → Static variable (only one copy exists and all objects share it).
