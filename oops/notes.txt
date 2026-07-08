@@ -179,7 +179,7 @@ Setter: A method used to update(set) the value of a private variable, often with
 
 ----------
 Encapsulation
-Encapsulation is defined as the wrapping up of data and methods under a single unit.it also implements data hiding(it data is sensitive than use private/default/protected access specifier).
+Encapsulation is defined as the wrapping up of data and methods under a single unit.it also implements data hiding(if data is sensitive/unnecessary details(jiksi jaroorat nhi hai user ko) than use private/default/protected access specifier).
 ---------------------
 This--
 
@@ -298,3 +298,39 @@ The method is chosen at runtime.
 
 packages in java:
 package is a group of similar types of classes,interfaces and sub-packages.
+
+
+-------------------
+Abstraction:hiding all the unnecessary details(jo user ke kisi kaam nhi hai aur subclasses ki bhi) and showing only the important parts to the user.
+In abstraction we give idea to uncoming user or subclasses how particular things work but not give implementation.
+
+Abstract Class
+•cannot create an instance(object) of abstract class
+•can have abstract/non-abstract methods
+•can have constructors
+•abstract method woh method hote hai jinmai implementation nhi hota.
+•abstract class woh class hoti hai jiske andar hum object nhi bna skte.
+You cannot create an object of Animal.
+
+❌
+Animal a = new Animal(); // Error
+
+
+
+1. What is abstraction?
+Abstraction is the process of hiding implementation details and showing only the essential functionality to the user. It focuses on what an object does, not how it does it.
+
+Example:
+When you drive a car, you use the steering wheel, accelerator, and brakes. You don't need to know how the engine works internally. That's abstraction.
+
+2. What is an abstract class?
+An abstract class is a class that cannot be instantiated (you cannot create its object). It can contain both abstract methods (without a body) and concrete methods (with a body). It is used when multiple related classes share common behavior but also need their own specific implementations.
+
+3. What is an abstract method?
+An abstract method is a method declared without an implementation. Any concrete subclass that extends the abstract class must provide an implementation for that method.
+
+Example:
+
+abstract class Animal {
+    abstract void walk();
+}
