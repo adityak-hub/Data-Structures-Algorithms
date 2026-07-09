@@ -370,7 +370,7 @@ things which we can make satatic
 •Blocks
 •Nested Classes
 
-Diagram--->
+Diagram-->
 
 
                                HEAP MEMORY
